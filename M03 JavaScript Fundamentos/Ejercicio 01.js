@@ -28,8 +28,8 @@ console.log(21 % 5); //1
 module.exports = {
    nuevoString, 'Camila'
    :nuevoNumero, 50 
-   :nuevoBoolean, arbolVerde = true,
-   nuevaResta= 26 - 14 === 12,
-   nuevaMultiplicacion= console.log (50 * 5),
-   nuevoModulo, console.log (36 % 7) ,
-};
+   :nuevoBoolean, arbolVerde= (true),
+   nuevaResta= (26 - 14),
+   nuevaMultiplicacion= (50 * 5),
+   nuevoModulo=(36 % 5 );
+}
