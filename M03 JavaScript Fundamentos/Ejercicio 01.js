@@ -11,25 +11,29 @@ const nuevoString = 'null';
 const nuevoNumero = 8;
 
 // Crea una variable de tipo boolean.
-const nuevoBoolean = Entiendo = true;
+const nuevoBooleano =true;
 
 // Resuelve el siguiente problema matemático.
-const nuevaResta = 10 - 7 === 3;
+const nuevaResta = 10 - 7;
+
+console.log (nuevaResta)//3
 
 // Resuelve el siguiente problema matemático.
-const nuevaMultiplicacion = 10 * 4 === 40;
+const nuevaMultiplicacion =( 10 * 4);
+console.log (nuevaMultiplicacion)//40
 
 // Resuelve el siguiente problema matemático.
-const nuevoModulo = 21 % 5 === 1
-console.log(21 % 5); //1
+const nuevoModulo = 21 % 5 
+console.log (nuevoModulo)//1
 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
-   nuevoString, 'Camila'
-   :nuevoNumero, 50 
-   :nuevoBoolean, arbolVerde= (true),
-   nuevaResta= (26 - 14),
-   nuevaMultiplicacion= (50 * 5),
-   nuevoModulo=(36 % 5 );
+   nuevoString, 
+   nuevoNumero,  
+   nuevoBoolean, 
+   nuevaResta, 
+   nuevaMultiplicacion,
+   nuevoModulo,
 }
+

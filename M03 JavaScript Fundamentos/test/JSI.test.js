@@ -1,25 +1,45 @@
 /* eslint-disable no-undef */
 const {
-   nuevoString,
-   nuevoNumero,
-   nuevoBoolean,
-   nuevaResta,
-   nuevaMultiplicacion,
-   nuevoModulo,
-} = require('../Ejercicio 01');
+   nuevoString= 'nuevoString';
+   nuevoNumero, (8) 
+   nuevoBoolean, Animal=(true);
+   nuevaResta, (258-56);
+   nuevaMultiplicacion, (268*45);
+   nuevoModulo, (854 % 3);
+}; 
+
+ require('../Ejercicio 01');
 
 const {
-   devolverString,
-   suma,
-   resta,
-   divide,
-   multiplica,
-   obtenerResto,
+   devolverString('str');{
+      return('str')};
+
+      suma( x,y );{
+   return(x + y)};
+
+   resta(x,y); {
+   return(x-y)};
+
+   divide(x,y); {
+   return(x/y)};
+
+   multiplica(x,y); {
+   return(8*9)};
+
+   obtenerResto(x,y); {
+   return(x % y)};
 } = require('../Ejercicio 02');
 
+
 const {
-   tienenMismaLongitud,
-   sonIguales,
+   tienenMismaLongitud, {
+   if ( 'luna'.length === 'sol'.length)= (true);
+else (false)};
+   sonIguales,{
+      if (condition) {
+         
+      }
+   }
    menosQueNoventa,
    mayorQueCincuenta,
    esPar,

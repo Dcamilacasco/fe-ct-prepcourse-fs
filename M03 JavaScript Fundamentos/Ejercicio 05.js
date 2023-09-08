@@ -22,8 +22,9 @@ function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
-   return (str + '!' )
+   return ('str' + '!' )
 }
+agregarSimboloExclamacion('hola')
 
 
 function combinarNombres(nombre, apellido) {
@@ -54,7 +55,9 @@ function retornarPerimetro(lado) {
 function areaDelTriangulo(base, altura) {
    // Calcula el área de un triángulo y retorna el resultado.
    // Tu código:
+   return ((base/2)*altura)
 }
+console.log areaDelTriangulo(16, 25);
 
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
